@@ -11,6 +11,22 @@ Form Submission: Shows a success message using SweetAlert2 upon successful form 
 
 Reset Functionality: Clears form fields after submission.
 
+## Technologies Used
+React
+
+SweetAlert2
+
+CSS (for styling)
+
+## Installation
+1. Clone the repository:
+   git clone https://github.com/the-syednawaz/credit-card-validator.git
+2. Install dependencies:
+   cd credit-card-validator
+   npm install
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
