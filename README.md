@@ -37,6 +37,15 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+## Usage
+
+1. Enter a valid 16-digit credit card number.
+2. Enter the expiry date in MMYY format.
+3. Enter the CVV (3-digit security code).
+4. Enter the cardholder's name.
+5. Select the bank name from the dropdown list.
+6. Click the Submit button to validate the card details.
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
