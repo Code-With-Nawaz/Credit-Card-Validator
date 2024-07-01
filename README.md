@@ -1,5 +1,9 @@
 # Credit Card Validator
 
+A simple React application for validating credit card details including card number, expiry date, CVV, and cardholder name. It uses SweetAlert2 for displaying a success message upon successful validation.
+
+## Features
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
