@@ -1,0 +1,129 @@
+body {
+    background: url('https://www.transparenttextures.com/patterns/gray-flowers.png'), linear-gradient(135deg, #5a9ff7, #3d6cb9);
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    margin: 20px;
+    padding: 20px 40px 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .container>h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .card-preview {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    width: 320px;
+    height: 200px;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin: auto;
+  }
+  
+  .card-bank {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .card-number {
+    font-size: 20px;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .card-holder {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .card-expiry {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .card-cvv {
+    font-size: 14px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .form-container {
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .credit-card-form {
+    width: 100%;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .card-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .submit-button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #667eea;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    max-width: 200px;
+    align-self: center;
+  }
+  
+  .submit-button:hover {
+    background-color: #764ba2;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
