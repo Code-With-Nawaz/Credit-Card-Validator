@@ -3,6 +3,10 @@
 A simple React application for validating credit card details including card number, expiry date, CVV, and cardholder name. It uses SweetAlert2 for displaying a success message upon successful validation.
 
 ## Features
+## Credit Card Validation: Validates 16-digit card numbers using Luhn algorithm.
+## Real-time Preview: Displays a preview of the credit card based on user input.
+## Form Submission: Shows a success message using SweetAlert2 upon successful form submission.
+## Reset Functionality: Clears form fields after submission.
 
 # Getting Started with Create React App
 
